@@ -58,7 +58,7 @@ function cform() {
 <h3>ටැග්</h3>
 <select class="textbox" placeholder="ඔබේ ප්‍රශ්නය ටැග් කිරීමට" name="tags" id="tags" tabindex="4"/></select>
 <br/>
-<input type="checkbox" id="answercheck" name="answercheck" value="1" onclick="fanswer();" tabindex="4"> Make this a knowledge-base article
+<input type="checkbox" id="answercheck" name="answercheck" value="1" onclick="fanswer();" tabindex="4"> මෙය දැනුම පදනම් වූ ලිපියක් බවට පත් කරන්න.
 <br/><br/>
 <input type="submit" value="ප්‍රශ්නය අසන්න" class="button" id="askquestion" tabindex="5">
 </form>

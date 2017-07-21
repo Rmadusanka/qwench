@@ -1,4 +1,4 @@
-<h1><?php echo $count;?> Tags</h1>
+<h1><?php echo $count;?> ටැග්ස්</h1>
 
 <div style="clear:both"></div>
 

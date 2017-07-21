@@ -1,4 +1,4 @@
-<h1><?php if($nopagination != 1):?><?php echo $questionscount;?> <?php endif;?>Questions <i><?php echo $extratitle;?></i></h1>
+<h1><?php if($nopagination != 1):?><?php echo $questionscount;?> <?php endif;?><i><?php echo $extratitle;?></i> ප්‍රශ්න </h1>
 
 <div style="clear:both"></div>
 <?php if ($questionscount != 0):?>

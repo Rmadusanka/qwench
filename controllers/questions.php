@@ -873,10 +873,10 @@ function index() {
 		if (sanitize($_GET['type'],"string") == "unanswered") {
 		//	$conditionspost .= " questions.id NOT IN (select questions.id from questions,answers where questions.id = answers.questionid and answers.accepted = 1) and ";
 			$conditionspost .= " questions.accepted = 0 and questions.kb = 0 and ";
-			$extratitle = " not yet answered";
+			$extratitle = " උත්තරයක් හමු නොවූනු";
 
 		} else {
-			$extratitle = " active";
+			$extratitle = " ක්යාකාරී";
 			$order = " updated desc ";
 			$nopagination = 1;
 		}
